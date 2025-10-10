@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# 예제 코드
+## 입력한 값-1 만큼 오름차순으로 숫자 출력
+```
+대체 누가
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 시작값, 끝값+1
+디미 호에엥..                 
+키움아래 디이미 # var1 = 11
 
-## Available Scripts
+# [3] 조건: (11 - var0) → 0이면 종료
+가을야구? 디이미 21대3 하와 훌쩍 디미 그러면 서류제출 디미 제발 아니면 30실점 호에에에엥 훌쩍 호에엥
 
-In the project directory, you can run:
+# [4] var0 += 1
+디미 디미 21대3 호엥.
 
-### `npm start`
+# [5] 조건으로 점프
+30실점 호에에엥 훌쩍 호엥
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+탈선린
+디미고를 서류로 떨어짐?
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 안녕 세상
+```
+대체 누가
 
-### `npm test`
+에겐 호에에에에에에엥 훌쩍 호에에에에에에에엥 #스껄
+에겐 호에에에에에에에엥 훌쩍 호에에에에에에에에에엥 21대3 호엥
+에겐 호에에에에에에에엥 훌쩍 호에에에에에에에에에에엥
+에겐 호에에에에에에에엥 훌쩍 호에에에에에에에에에에엥
+에겐 호에에에에에에에엥 훌쩍 호에에에에에에에에에에엥 21대3 호에엥
+에겐 호에에엥 훌쩍 호에에에에에에에에에엥
+에겐 호에에에에에에에엥 훌쩍 호에에에에에에에엥 21대3 호에에에에엥
+에겐 호에에에에에에에엥 훌쩍 호에에에에에에에에에에엥 21대3 호에엥
+에겐 호에에에에에에에엥 훌쩍 호에에에에에에에에에에엥 21대3 호에에에에엥
+에겐 호에에에에에에에엥 훌쩍 호에에에에에에에에에에엥
+에겐 호에에에에에에에에엥 훌쩍 호에에에에에에에에엥
+에겐 호에에에에에에에에에엥 훌쩍 호에엥 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+디미고를 서류로 떨어짐?
+```

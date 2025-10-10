@@ -1,0 +1,148 @@
+/* 전체 레이아웃 */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #1e1e1e;
+  color: #e5e7eb;
+  font-family: "JetBrains Mono", monospace;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* 제목 */
+.container h1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #9cdcfe;
+  margin-bottom: 0.5rem;
+}
+
+/* 상단 코드/입력 영역 */
+.editor-zone {
+  display: flex;
+  flex: 2;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* 코드창 / 입력창 */
+textarea {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #d4d4d4;
+  background: #252526;
+  resize: none;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  outline: none;
+  line-height: 1.4;
+  transition: border 0.2s, background-color 0.2s;
+}
+
+/* 포커스 시 VSCode 포커스 하이라이트 */
+textarea:focus {
+  background: #1e1e1e;
+  border: 1px solid #007acc;
+  box-shadow: 0 0 0 1px #007acc;
+}
+
+/* 실행 버튼들 */
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+  transition: 0.15s;
+}
+
+.run {
+  background: #007acc;
+  color: white;
+}
+.run:hover {
+  background: #0a84ff;
+}
+
+.reset {
+  background: #333;
+  color: #ddd;
+}
+.reset:hover {
+  background: #555;
+}
+
+/* 하단 출력/로그 영역 */
+.output-zone {
+  display: flex;
+  flex: 1;
+  gap: 1rem;
+}
+
+/* 출력창 */
+.output-area {
+  flex: 1;
+  width: 70%;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: #9cdcfe;
+  padding: 1rem;
+  white-space: pre-wrap;
+  overflow-y: auto;
+}
+.output-area {
+  flex: 2;
+}
+.error-log {
+  flex: 1;
+}
+.code-editor{
+    flex:2;
+}
+.input-editor{
+    flex:1;
+}
+
+/* 에러 로그 */
+.error-log {
+  flex: 1;
+  background: #252526;
+  color: #f44747;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 0.85rem;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+/* 스크롤바 (VSCode풍) */
+textarea::-webkit-scrollbar,
+.output-area::-webkit-scrollbar,
+.error-log::-webkit-scrollbar {
+  width: 10px;
+}
+textarea::-webkit-scrollbar-thumb,
+.output-area::-webkit-scrollbar-thumb,
+.error-log::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 6px;
+}
+textarea::-webkit-scrollbar-thumb:hover,
+.output-area::-webkit-scrollbar-thumb:hover,
+.error-log::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}

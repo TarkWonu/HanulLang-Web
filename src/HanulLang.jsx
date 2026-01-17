@@ -281,7 +281,7 @@ class JangHanul {
 export default function HanulLang() {
   const [code, setCode] = useState(`대체 누가
 
-에겐 호에에에에에에엥 훌쩍 호에에에에에에에엥 #스껄
+에겐 호에에에에에에엥 훌쩍 호에에에에에에에엥 
 에겐 호에에에에에에에엥 훌쩍 호에에에에에에에에에엥 21대3 호엥
 에겐 호에에에에에에에엥 훌쩍 호에에에에에에에에에에엥
 에겐 호에에에에에에에엥 훌쩍 호에에에에에에에에에에엥
